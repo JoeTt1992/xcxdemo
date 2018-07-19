@@ -2,7 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/new/index"
+    "pages/think/index",
+    "pages/user/index",
+    "pages/news/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -13,10 +15,27 @@
   "tabBar":{
     "list":[{
       "pagePath":"pages/index/index",
-      "text":"首页"
+      "text":"首页",
+      "iconPath":"image/home_hover.png",
+      "selectedIconPath":"image/home.png"
     },{
-      "pagePath":"pages/new/index",
-      "text":"发现"
-    }]
+      "pagePath": "pages/think/index",
+      "text": "想法",
+      "iconPath": "image/list_hover.png",
+      "selectedIconPath": "image/list.png"
+    },
+    {
+      "pagePath":"pages/news/index",
+      "text":"消息",
+      "iconPath":"image/bubble_hover.png",
+      "selectedIconPath":"image/bubble.png"
+    },{
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "image/paw_hover.png",
+      "selectedIconPath": "image/paw.png"
+    }],
+    "color":"#000",
+    "selectedColor": "#1296db"
   }
 }
