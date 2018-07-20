@@ -9,4 +9,9 @@
   width:33%;
   font-size: 14px;
   text-align: center;
+  height:48rpx;
+  line-height: 50rpx;
+}
+.toptab-item-hover{
+  border-bottom: solid 2px #000;
 }

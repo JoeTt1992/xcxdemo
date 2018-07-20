@@ -43,6 +43,9 @@ Page({
         }
       })
     }
+    wx.setNavigationBarTitle({
+      title: '知乎'
+    })
   },
   getUserInfo: function(e) {
     console.log(e)
