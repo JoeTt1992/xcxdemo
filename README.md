@@ -1,2 +1,3 @@
-# xcxdemo
+# 小程序demo
 此代码为微信小程序个人demo，主要实现对知乎网页版的小程序改造
+图标采用iconfont

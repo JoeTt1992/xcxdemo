@@ -1,5 +1,7 @@
 <!--index.wxml-->
-<view class='tab'>
-  
+<view class='toptab'>
+  <view class='toptab-item'>关注</view>
+  <view class='toptab-item'>推荐</view>
+  <view class='toptab-item'>热榜</view>
 </view>
 
