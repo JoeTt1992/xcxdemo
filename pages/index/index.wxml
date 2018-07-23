@@ -1,7 +1,10 @@
 <!--index.wxml-->
 <view class='toptab'>
-  <view class='toptab-item toptab-item-hover'>关注</view>
-  <view class='toptab-item'>推荐</view>
-  <view class='toptab-item'>热榜</view>
+  <view class='toptab-item toptab-item-hover' bindtap='tabChange'>关注</view>
+  <view class='toptab-item' bindtap='tabChange'>推荐</view>
+  <view class='toptab-item' bindtap='tabChange'>热榜</view>
+</view>
+<view class='content-tiem'>
+
 </view>
 

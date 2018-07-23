@@ -16,6 +16,9 @@ Page({
       url: '../logs/logs'
     })
   },
+  tabChange:function(){
+    console.info("123")
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
